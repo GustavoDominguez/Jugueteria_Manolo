@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color: #f7971e;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: "Caveat", sans-serif;
+    font-weight: 500;
+    font-size: 10rem;
+    display:inline;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+nav{
+    background-color: #f1ce0b;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+ul{
+    color: yellow;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    justify-content:space-evenly
+} 
+body{
+    font-family: "Caveat", sans-serif;
+}
+a{
+    text-decoration: none;
+} 
+.baner{
+    color: blue;
+    font-size: 20px;  
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.cadenadejugueteria{
+    margin: 25px;
+}
+.subtitulo{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px;
+}
+h2{
+    color: #F1330B;
+    font-size: 25px; 
+}
+li{
+    font-size: 25px; 
+    font-weight: bold;
+}
+ol{
+    list-style-type: none;
+}
+p{
+    font-size: 25px;
+}
+h3{
+    font-size: 30px; 
+}
+.contacto{
+    font-size: 35px;
+    font-weight: bold;
+}
+.cuadro{
+    font-size: 35px;
+}
+img{
+    max-width: 100%; 
+}
+.container-items-juguetes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.item{
+    border-radius: 10px;
+}
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20)
+}
+.boton{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.item:hover img{
+    transform: scale(1.2);
+}
+.item figure{
+    overflow: hidden;
+}
+button{
+    border: none;
+    background: none;
+    background-color: #f7971e;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: "Caveat", sans-serif;
+    font-weight: bold;
+}
+.container-items-bebe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.price{
+    font-size: 30px;
+    font-weight: 900;
+}
+footer{
+    background-color:#f7971e;
+    color: white;
+    display: flex;
+}
+footer h3{
+    color: #c33764;
+}
+.padre{
+    display: flex;
+    flex-direction: row;   
+}
+.hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.irarriba{
+    font-size: 25px; 
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:320px){
+
+    .container-items-juguetes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+@media (min-width:768px){
+
+    .container-items-juguetes{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
