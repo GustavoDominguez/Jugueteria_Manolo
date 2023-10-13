@@ -36,6 +36,9 @@ ul{
 body{
     font-family: "Caveat", sans-serif;
 }
+main{
+    margin: 20px 30px;
+}
 a{
     text-decoration: none;
 } 
