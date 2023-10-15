@@ -164,22 +164,6 @@ footer h3{
     justify-content: center;
     margin: 50px;
 }
-@media (min-width:320px){
-
-    .container-items-juguetes{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
-}
-@media (min-width:768px){
-
-    .container-items-juguetes{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-    }
-}
 .d-item{
     height: 500px;
 }
@@ -232,4 +216,20 @@ input{
 }
 .btn:hover{
     background-color: #ffd95b;
+}
+@media (min-width:320px){
+
+    .container-items-juguetes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+@media (min-width:768px){
+
+    .container-items-juguetes{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
 }
