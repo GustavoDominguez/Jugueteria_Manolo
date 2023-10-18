@@ -29,11 +29,12 @@ nav a:hover{
     color: white;
 }
 ul{
-    color: yellow;
+    color: black;
     list-style-type: none;
     font-size: 25px;
     display: flex;
     justify-content:space-evenly;
+    font-weight: 900;
 } 
 body{
     font-family: "Caveat", sans-serif;
@@ -140,19 +141,18 @@ button{
 }
 footer{
     background-color:#f7971e;
-    color: white;
-}
-footer h3{
-    color: #c33764;
 }
 .padre{
     display: flex;
-    flex-direction: row;   
-}
-.hijo{
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+}
+footer h3{
+    color: #c33764;
+    font-weight: 900;
+}
+footer ul{
+   flex-direction: column;
 }
 .irarriba{
     font-size: 25px; 
